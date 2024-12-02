@@ -1,0 +1,49 @@
+.blogs {
+  height: calc(100vh - 58px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.searchInput {
+  padding: 0.8rem 1rem;
+  font-size: 1.6rem;
+  display: block;
+  width: 100%;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+  border: 3px solid #008500;
+  background-color: #eee;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
+.pagination,
+.pagination > li {
+  margin-top: 2rem;
+}
+
+.pagination > li > a {
+  width: 100%;
+  background-color: #666;
+  display: block;
+  padding: 0.6rem 1.2rem;
+  color: black;
+  font-size: 1.8rem;
+}
+
+.pagination > li > a[rel="canonical"] {
+  background-color: white;
+}
+
+.pagination > li.previous a,
+.pagination > li.next a {
+  background: transparent;
+  color: lime;
+}
